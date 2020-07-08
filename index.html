@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Опитування</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div id="around">
+            <h1>Опитування</h1>
+            <p>Дайте нам знати, як ми можемо покращити наш сервіс</p>
+        </div>
+    </header>
+
+    <form id="survey">
+
+        <div id="formblock">
+            <label id="name">Ім'я</label>
+            <input id="names" type="text" placeholder="Введіть Ваше ім'я"></input>
+        </div>
+        <div id="formblock">
+            <label id="email-label">Email</label>
+            <input id="email" type="email" placeholder="Введіть Ваш email"></input>
+        </div>
+        <div id="formblock">
+            <label id="age-label">Вік</label>
+            <input id="age" type="number" min="0" max="100" placeholder="Оберіть Ваш вік"></input>
+        </div>
+        <div id="formblock">
+            <label>Ваша роль</p></label>
+            <select id="list" name="role" class="form-control" required>
+                <option disabled selected value>Оберіть свою роль</option>
+                <option>Студент</option>
+                <option>Працюю</option>
+                <option>Не хочу відповідати</option>
+                <option>Інше</option>
+            </select>
+        </div>
+        <div id="formblock">
+            <lable id="choise">Чи порекомендуєте наш сервіс друзям?</lable>
+            <div>
+                <label for="contactChoice1">
+                    <input type="radio" id="choises" name="recom" value="yes">
+                    Так</label>
+                <label for="contactChoice2">
+                    <input type="radio" id="choises" name="recom" value="maybe">
+                    Можливо</label>
+                <label for="contactChoice3">
+                    <input type="radio" id="choises" name="recom" value="no">
+                    Ні</label>
+            </div>
+        </div>
+        <div id="formblock">
+            <label>Що Ви ще хочете тут бачити?</label>
+            <label> <input id="more" type="checkbox" value="var1">Варіант 1</label>
+            <label> <input id="more" type="checkbox" value="var2">Варіант 2</label>
+            <label> <input id="more" type="checkbox" value="var3">Варіант 3</label>
+            <label> <input id="more" type="checkbox" value="var4">Варіант 4</label>
+            <label> <input id="more" type="checkbox" value="var5">Варіант 5</label>
+        </div>
+        <div id="formblock">
+            <p>Ще якісь побажання?</p>
+            <textarea id="comment" placeholder="Якщо є що написати, пишіть сюди."></textarea>
+        </div>
+        <div id="formblock">
+            <button id="submit" type="submit">Відправити ✔</button>
+        </div>
+    </form>
+
+    <footer>
+        <div id="down">
+            <p>Робота закінчена 08.07.2020</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

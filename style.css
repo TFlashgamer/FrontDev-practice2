@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+
+html ::-webkit-scrollbar {
+    /* *Ховаємо полосу прокрутки   */
+    width: 0px;
+    background: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-image: url(src/background.png);
+    background-size: cover;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    margin: 10px;
+}
+
+button,
+select,
+textarea {
+    margin: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#around {
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+
+
+}
+
+#survey {
+    background-color: rgba(27, 27, 50, 0.8);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+    margin: 350px;
+    margin-top: 40px;
+    margin-bottom: auto;
+    align-self: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#formblock {
+    margin: 5px;
+    margin-top: 1px;
+    padding: 1px;
+
+}
+
+#down {
+    background: rgba(29, 29, 73, 0.8);
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    margin: 10px;
+    padding: 1px;
+}
+
+#names,
+#email,
+#age,
+#list {
+    border: 1px solid #dadada;
+    height: 52px;
+    width: 84.8%;
+    padding: 10px 30px;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    opacity: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#choises,
+#more {
+    height: 52px;
+    width: 4%;
+    opacity: 70%;
+    margin: 1px;
+    margin-right: 10px;
+}
+
+#comment {
+    border: 1px solid #dadada;
+    height: 150px;
+    width: 97%;
+    opacity: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 2px;
+}
+
+#submit {
+    border: 1px solid rgba(6, 6, 27, 0.8);
+    height: 52px;
+    width: 97%;
+    opacity: 70%;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    background: rgba(9, 9, 33, 0.8);
+    color: white;
+    border-radius: 2px;
+}
