@@ -13,7 +13,6 @@ body {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
     background-image: url(src/background.png);
     background-size: cover;
     /* *Ставимо межі в нульове положення і робимо задній фон   */
@@ -77,10 +76,7 @@ textarea {
     padding: 1px;
 }
 
-.names,
-.email,
-.age,
-.list {
+.form-item {
     border: 1px solid #dadada;
     height: 52px;
     width: 84.8%;
@@ -97,8 +93,7 @@ textarea {
     font-family: 'Comfortaa', cursive;
 }
 
-.choises,
-.more {
+.form-input {
     height: 52px;
     width: 4%;
     opacity: 70%;
