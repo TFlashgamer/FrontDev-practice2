@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+/* *Імпортуємо кастомний шрифт   */
 
 html ::-webkit-scrollbar {
-    /* *Ховаємо полосу прокрутки   */
+    /* *Ховаємо скроллбар   */
     width: 0px;
     background: transparent;
 }
@@ -15,6 +16,7 @@ body {
     vertical-align: baseline;
     background-image: url(src/background.png);
     background-size: cover;
+    /* *Ставимо межі в нульове положення і робимо задній фон   */
 }
 
 label {
@@ -35,15 +37,15 @@ textarea {
     line-height: inherit;
 }
 
-#around {
+.around {
     color: white;
     text-align: center;
     font-family: 'Comfortaa', cursive;
 
-
+    /* *Текст поза блоком з опитуванням   */
 }
 
-#survey {
+.survey {
     background-color: rgba(27, 27, 50, 0.8);
     color: white;
     border-radius: 5px;
@@ -54,18 +56,18 @@ textarea {
     align-self: center;
 }
 
-#description {
+.description {
     text-align: center;
 }
 
-#formblock {
+.formblock {
     margin: 5px;
     margin-top: 1px;
     padding: 1px;
 
 }
 
-#down {
+.down {
     background: rgba(29, 29, 73, 0.8);
     border-radius: 3px;
     text-align: center;
@@ -75,10 +77,10 @@ textarea {
     padding: 1px;
 }
 
-#names,
-#email,
-#age,
-#list {
+.names,
+.email,
+.age,
+.list {
     border: 1px solid #dadada;
     height: 52px;
     width: 84.8%;
@@ -95,8 +97,8 @@ textarea {
     font-family: 'Comfortaa', cursive;
 }
 
-#choises,
-#more {
+.choises,
+.more {
     height: 52px;
     width: 4%;
     opacity: 70%;
@@ -104,7 +106,7 @@ textarea {
     margin-right: 10px;
 }
 
-#comment {
+.comment {
     border: 1px solid #dadada;
     height: 150px;
     width: 97%;
@@ -121,7 +123,7 @@ textarea {
     border-radius: 2px;
 }
 
-#submit {
+.submit {
     border: 1px solid rgba(6, 6, 27, 0.8);
     height: 52px;
     width: 97%;
